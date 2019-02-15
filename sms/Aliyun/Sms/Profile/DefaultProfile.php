@@ -19,6 +19,12 @@
  */
 namespace Zzx\Aliyun\Sms\Profile;
 
+use Zzx\Aliyun\Sms\Auth\Credential;
+use Zzx\Aliyun\Sms\Auth\ShaHmac1Signer;
+use Zzx\Aliyun\Sms\Regions\Endpoint;
+use Zzx\Aliyun\Sms\Regions\EndpointProvider;
+use Zzx\Aliyun\Sms\Regions\ProductDomain;
+
 class DefaultProfile implements IClientProfile
 {
     private static $profile;
