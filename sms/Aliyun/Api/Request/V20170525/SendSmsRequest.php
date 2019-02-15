@@ -17,9 +17,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Dysmsapi\Request\V20170525;
+namespace Zzx\Aliyun\Api\Request\V20170525;
 
-class SendSmsRequest extends \RpcAcsRequest
+use Zzx\Aliyun\Sms\RpcAcsRequest;
+
+class SendSmsRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

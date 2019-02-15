@@ -17,22 +17,26 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Aliyun\Sms;
 
-class Config
-{
-    public function __construct(){
-        include_once 'Autoloader/Autoloader.php';
-        include_once 'Regions/EndpointConfig.php';
+namespace Zzx\Aliyun\Sms;
+/**
+ * get end point data from xml
+ * get place info
+ */
+include_once SMS_PATH .'Regions/EndpointConfig.php';
 
-        //config sdk auto load path.
-        //Autoloader::addAutoloadPath("aliyun-php-sdk-sms");
-        Autoloader::addAutoloadPath("aliyun-php-sdk-dybaseapi");
+/**
+ * hard code without `env` function
+ */
+if (!defined('ENABLE_HTTP_PROXY')) {
+    define('ENABLE_HTTP_PROXY', false);
+}
 
-        //config http proxy
-        define('ENABLE_HTTP_PROXY', false);
-        define('HTTP_PROXY_IP', '127.0.0.1');
-        define('HTTP_PROXY_PORT', '8888');
-    }
+if (!defined('HTTP_PROXY_IP')) {
+    define('HTTP_PROXY_IP', '127.0.0.1');
+}
+
+if (!defined('HTTP_PROXY_PORT')) {
+    define('HTTP_PROXY_PORT', '8888');
 }
 

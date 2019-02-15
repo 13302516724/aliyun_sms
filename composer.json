@@ -15,8 +15,8 @@
 	},
 	 "autoload": {
 		"psr-4": {
-		  "Aliyun\\Sms\\": "sms/Aliyun/Sms/Config.php",
-		  "Aliyun\\Api\\": "sms/Aliyun/Api"
+		  "Zzx\\Aliyun\\Sms\\": "sms/Aliyun/Sms/",
+		  "Zzx\\Aliyun\\Api\\Request\\V20170525\\": "sms/Aliyun/Api/Request/V20170525/"
 		}
 	}
 }

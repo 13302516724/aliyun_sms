@@ -17,6 +17,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+namespace Zzx\Aliyun\Sms\Exception;
+
 class ClientException extends Exception
 {
     public function __construct($errorMessage, $errorCode)

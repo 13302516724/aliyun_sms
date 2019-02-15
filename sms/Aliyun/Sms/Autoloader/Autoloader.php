@@ -17,6 +17,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+namespace Zzx\Aliyun\Sms\Autoloader;
+
 spl_autoload_register("Autoloader::autoload");
 class Autoloader
 {

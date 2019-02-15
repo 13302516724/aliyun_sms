@@ -17,6 +17,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+namespace Zzx\Aliyun\Sms;
+
+use GuzzleHttp\Exception\ClientException;
+use GuzzleHttp\Exception\ServerException;
+use Zzx\Aliyun\Sms\Http\HttpHelper;
+use Zzx\Aliyun\Sms\Regions\EndpointProvider;
+
 class DefaultAcsClient implements IAcsClient
 {
     public $iClientProfile;

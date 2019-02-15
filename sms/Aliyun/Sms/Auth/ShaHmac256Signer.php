@@ -17,6 +17,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+namespace Zzx\Aliyun\Sms\Auth;
+
 class ShaHmac256Signer implements ISigner
 {
     public function signString($source, $accessSecret)
