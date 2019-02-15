@@ -1,11 +1,11 @@
 {
-    "name": "zzhaoxin/aliyun_sms",
+    "name": "zzx/aliyun_sms",
     "description": "sms",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "zzhaoxin",
+            "name": "zzx",
             "email": "1064059707@qq.com"
         }
     ],
