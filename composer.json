@@ -1,8 +1,9 @@
 {
     "name": "zzx/aliyun_sms",
-    "description": "sms",
+    "description": "阿里云核心短信服务代码",
     "type": "library",
     "license": "MIT",
+	"version": "1.0.0",
     "authors": [
         {
             "name": "zzx",
